@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_title"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent" >
+
+    <!--
+         <ImageView
+        android:id="@+id/view_title_imgTitle"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/view_title_topbar"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip" />
+    -->
+
+    <TextView
+        android:id="@+id/view_title_txtTitle"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dip"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/White"
+        android:textSize="25sp" />
+
+    <!--
+         <TextView
+        android:id="@+id/data_provided_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view_title_txtTitle"
+        android:layout_alignLeft="@+id/view_title_txtTitle"
+        android:layout_alignRight="@+id/view_title_txtTitle"
+        android:layout_alignTop="@+id/view_title_txtTitle"
+        android:layout_below="@id/view_title_topbar"
+        android:layout_toRightOf="@id/view_title_imgTitle"
+        android:gravity="right|center_vertical"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="Section Title"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    -->
+
+
+    <!--
+    <TextView
+        android:id="@+id/view_title_txtTitle"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_title_topbar"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@id/view_title_imgTitle"
+        android:contentDescription="@string/DESC"
+        android:paddingTop="5dp"
+        android:textColor="?title_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/data_provided_layout"
+        style="@style/label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view_title_txtTitle"
+        android:layout_alignLeft="@+id/view_title_txtTitle"
+        android:layout_alignRight="@+id/view_title_txtTitle"
+        android:layout_alignTop="@+id/view_title_txtTitle"
+        android:layout_below="@id/view_title_topbar"
+        android:layout_toRightOf="@id/view_title_imgTitle"
+        android:gravity="right|center_vertical"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="Section Title"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="?label_txt_color" />
+    -->
+
+
+    <!--
+    <View
+        android:id="@+id/view_title_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#FFFF7040" />
+
+    <ImageView
+        android:id="@+id/view_title_imgTitle"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/view_title_topbar"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip" />
+    
+     <TextView
+         android:id="@+id/view_title_txtTitle"
+         style="@android:style/TextAppearance.Large"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@id/view_title_topbar"
+         android:layout_gravity="center_vertical"
+         android:layout_marginTop="5dip"
+         android:paddingLeft="10dp"
+         android:paddingTop="5dp"
+         android:textColor="@color/White"
+         android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/data_provided_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view_title_txtTitle"
+        android:layout_alignLeft="@+id/view_title_txtTitle"
+        android:layout_alignRight="@+id/view_title_txtTitle"
+        android:layout_alignTop="@+id/view_title_txtTitle"
+        android:layout_below="@id/view_title_topbar"
+        android:layout_toRightOf="@id/view_title_imgTitle"
+        android:gravity="right|center_vertical"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="Section Title"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/view_title_txtTitle"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_title_topbar"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@id/view_title_imgTitle"
+        android:contentDescription="@string/DESC"
+        android:paddingTop="5dp"
+        android:textColor="?title_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/data_provided_layout"
+        style="@style/label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view_title_txtTitle"
+        android:layout_alignLeft="@+id/view_title_txtTitle"
+        android:layout_alignRight="@+id/view_title_txtTitle"
+        android:layout_alignTop="@+id/view_title_txtTitle"
+        android:layout_below="@id/view_title_topbar"
+        android:layout_toRightOf="@id/view_title_imgTitle"
+        android:gravity="right|center_vertical"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="Section Title"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="?label_txt_color" />
+
+    <View
+        android:id="@+id/view_title_downbar"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#FFFF7040" />
+    -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/view_title_txtTitle" >
+
+        <TextView
+            android:id="@+id/view_title_txtcar_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/White"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/view_title_txtdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/White"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
